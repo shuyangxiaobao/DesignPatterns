@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821174C82580CD03009597CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 821174C72580CD03009597CA /* AppDelegate.m */; };
+		821174CB2580CD03009597CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 821174CA2580CD03009597CA /* SceneDelegate.m */; };
+		821174CE2580CD03009597CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821174CD2580CD03009597CA /* ViewController.m */; };
+		821174D12580CD03009597CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821174CF2580CD03009597CA /* Main.storyboard */; };
+		821174D32580CD05009597CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821174D22580CD05009597CA /* Assets.xcassets */; };
+		821174D62580CD05009597CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821174D42580CD05009597CA /* LaunchScreen.storyboard */; };
+		821174D92580CD05009597CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 821174D82580CD05009597CA /* main.m */; };
+		821174E32580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821174E22580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.m */; };
+		821174EE2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821174ED2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.m */; };
+		821175052580CD8E009597CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 821175042580CD8E009597CA /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821174DF2580CD06009597CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821174BB2580CD03009597CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821174C22580CD03009597CA;
+			remoteInfo = geqiangbao_20201209_cloneable_oc;
+		};
+		821174EA2580CD06009597CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821174BB2580CD03009597CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821174C22580CD03009597CA;
+			remoteInfo = geqiangbao_20201209_cloneable_oc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821174C32580CD03009597CA /* geqiangbao_20201209_cloneable_oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geqiangbao_20201209_cloneable_oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821174C62580CD03009597CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		821174C72580CD03009597CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		821174C92580CD03009597CA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		821174CA2580CD03009597CA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		821174CC2580CD03009597CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		821174CD2580CD03009597CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		821174D02580CD03009597CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821174D22580CD05009597CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821174D52580CD05009597CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		821174D72580CD05009597CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821174D82580CD05009597CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		821174DE2580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geqiangbao_20201209_cloneable_ocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821174E22580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geqiangbao_20201209_cloneable_ocTests.m; sourceTree = "<group>"; };
+		821174E42580CD06009597CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821174E92580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geqiangbao_20201209_cloneable_ocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821174ED2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geqiangbao_20201209_cloneable_ocUITests.m; sourceTree = "<group>"; };
+		821174EF2580CD06009597CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821174FF2580CD34009597CA /* CloneableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloneableProtocol.h; sourceTree = "<group>"; };
+		821175032580CD8E009597CA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		821175042580CD8E009597CA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821174C02580CD03009597CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821174DB2580CD06009597CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821174E62580CD06009597CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821174BA2580CD03009597CA = {
+			isa = PBXGroup;
+			children = (
+				821174C52580CD03009597CA /* geqiangbao_20201209_cloneable_oc */,
+				821174E12580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests */,
+				821174EC2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests */,
+				821174C42580CD03009597CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821174C42580CD03009597CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821174C32580CD03009597CA /* geqiangbao_20201209_cloneable_oc.app */,
+				821174DE2580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.xctest */,
+				821174E92580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821174C52580CD03009597CA /* geqiangbao_20201209_cloneable_oc */ = {
+			isa = PBXGroup;
+			children = (
+				821174FE2580CD10009597CA /* 原型模式 */,
+				821174C62580CD03009597CA /* AppDelegate.h */,
+				821174C72580CD03009597CA /* AppDelegate.m */,
+				821174C92580CD03009597CA /* SceneDelegate.h */,
+				821174CA2580CD03009597CA /* SceneDelegate.m */,
+				821174CC2580CD03009597CA /* ViewController.h */,
+				821174CD2580CD03009597CA /* ViewController.m */,
+				821174CF2580CD03009597CA /* Main.storyboard */,
+				821174D22580CD05009597CA /* Assets.xcassets */,
+				821174D42580CD05009597CA /* LaunchScreen.storyboard */,
+				821174D72580CD05009597CA /* Info.plist */,
+				821174D82580CD05009597CA /* main.m */,
+			);
+			path = geqiangbao_20201209_cloneable_oc;
+			sourceTree = "<group>";
+		};
+		821174E12580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				821174E22580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.m */,
+				821174E42580CD06009597CA /* Info.plist */,
+			);
+			path = geqiangbao_20201209_cloneable_ocTests;
+			sourceTree = "<group>";
+		};
+		821174EC2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821174ED2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.m */,
+				821174EF2580CD06009597CA /* Info.plist */,
+			);
+			path = geqiangbao_20201209_cloneable_ocUITests;
+			sourceTree = "<group>";
+		};
+		821174FE2580CD10009597CA /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				821174FF2580CD34009597CA /* CloneableProtocol.h */,
+				821175032580CD8E009597CA /* Person.h */,
+				821175042580CD8E009597CA /* Person.m */,
+			);
+			path = "原型模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821174C22580CD03009597CA /* geqiangbao_20201209_cloneable_oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821174F22580CD06009597CA /* Build configuration list for PBXNativeTarget "geqiangbao_20201209_cloneable_oc" */;
+			buildPhases = (
+				821174BF2580CD03009597CA /* Sources */,
+				821174C02580CD03009597CA /* Frameworks */,
+				821174C12580CD03009597CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geqiangbao_20201209_cloneable_oc;
+			productName = geqiangbao_20201209_cloneable_oc;
+			productReference = 821174C32580CD03009597CA /* geqiangbao_20201209_cloneable_oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821174DD2580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821174F52580CD06009597CA /* Build configuration list for PBXNativeTarget "geqiangbao_20201209_cloneable_ocTests" */;
+			buildPhases = (
+				821174DA2580CD06009597CA /* Sources */,
+				821174DB2580CD06009597CA /* Frameworks */,
+				821174DC2580CD06009597CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821174E02580CD06009597CA /* PBXTargetDependency */,
+			);
+			name = geqiangbao_20201209_cloneable_ocTests;
+			productName = geqiangbao_20201209_cloneable_ocTests;
+			productReference = 821174DE2580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821174E82580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821174F82580CD06009597CA /* Build configuration list for PBXNativeTarget "geqiangbao_20201209_cloneable_ocUITests" */;
+			buildPhases = (
+				821174E52580CD06009597CA /* Sources */,
+				821174E62580CD06009597CA /* Frameworks */,
+				821174E72580CD06009597CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821174EB2580CD06009597CA /* PBXTargetDependency */,
+			);
+			name = geqiangbao_20201209_cloneable_ocUITests;
+			productName = geqiangbao_20201209_cloneable_ocUITests;
+			productReference = 821174E92580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821174BB2580CD03009597CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					821174C22580CD03009597CA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					821174DD2580CD06009597CA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 821174C22580CD03009597CA;
+					};
+					821174E82580CD06009597CA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 821174C22580CD03009597CA;
+					};
+				};
+			};
+			buildConfigurationList = 821174BE2580CD03009597CA /* Build configuration list for PBXProject "geqiangbao_20201209_cloneable_oc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821174BA2580CD03009597CA;
+			productRefGroup = 821174C42580CD03009597CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821174C22580CD03009597CA /* geqiangbao_20201209_cloneable_oc */,
+				821174DD2580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests */,
+				821174E82580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821174C12580CD03009597CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821174D62580CD05009597CA /* LaunchScreen.storyboard in Resources */,
+				821174D32580CD05009597CA /* Assets.xcassets in Resources */,
+				821174D12580CD03009597CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821174DC2580CD06009597CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821174E72580CD06009597CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821174BF2580CD03009597CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821174CE2580CD03009597CA /* ViewController.m in Sources */,
+				821174C82580CD03009597CA /* AppDelegate.m in Sources */,
+				821175052580CD8E009597CA /* Person.m in Sources */,
+				821174D92580CD05009597CA /* main.m in Sources */,
+				821174CB2580CD03009597CA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821174DA2580CD06009597CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821174E32580CD06009597CA /* geqiangbao_20201209_cloneable_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821174E52580CD06009597CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821174EE2580CD06009597CA /* geqiangbao_20201209_cloneable_ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821174E02580CD06009597CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821174C22580CD03009597CA /* geqiangbao_20201209_cloneable_oc */;
+			targetProxy = 821174DF2580CD06009597CA /* PBXContainerItemProxy */;
+		};
+		821174EB2580CD06009597CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821174C22580CD03009597CA /* geqiangbao_20201209_cloneable_oc */;
+			targetProxy = 821174EA2580CD06009597CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		821174CF2580CD03009597CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821174D02580CD03009597CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		821174D42580CD05009597CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821174D52580CD05009597CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821174F02580CD06009597CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		821174F12580CD06009597CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821174F32580CD06009597CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201209_cloneable_oc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201209-cloneable-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		821174F42580CD06009597CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201209_cloneable_oc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201209-cloneable-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		821174F62580CD06009597CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201209_cloneable_ocTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201209-cloneable-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geqiangbao_20201209_cloneable_oc.app/geqiangbao_20201209_cloneable_oc";
+			};
+			name = Debug;
+		};
+		821174F72580CD06009597CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201209_cloneable_ocTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201209-cloneable-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geqiangbao_20201209_cloneable_oc.app/geqiangbao_20201209_cloneable_oc";
+			};
+			name = Release;
+		};
+		821174F92580CD06009597CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201209_cloneable_ocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201209-cloneable-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geqiangbao_20201209_cloneable_oc;
+			};
+			name = Debug;
+		};
+		821174FA2580CD06009597CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201209_cloneable_ocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201209-cloneable-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geqiangbao_20201209_cloneable_oc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821174BE2580CD03009597CA /* Build configuration list for PBXProject "geqiangbao_20201209_cloneable_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821174F02580CD06009597CA /* Debug */,
+				821174F12580CD06009597CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821174F22580CD06009597CA /* Build configuration list for PBXNativeTarget "geqiangbao_20201209_cloneable_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821174F32580CD06009597CA /* Debug */,
+				821174F42580CD06009597CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821174F52580CD06009597CA /* Build configuration list for PBXNativeTarget "geqiangbao_20201209_cloneable_ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821174F62580CD06009597CA /* Debug */,
+				821174F72580CD06009597CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821174F82580CD06009597CA /* Build configuration list for PBXNativeTarget "geqiangbao_20201209_cloneable_ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821174F92580CD06009597CA /* Debug */,
+				821174FA2580CD06009597CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821174BB2580CD03009597CA /* Project object */;
+}

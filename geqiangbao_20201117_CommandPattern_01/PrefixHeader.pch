@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  geqiangbao_20201117_CommandPattern_01
+//
+//  Created by xiaobao on 2020/11/17.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MacShutDownCommand.h"
+#import "MacStartUpCommand.h"
+#import "MacComputer.h"
+#import "MacInvolker.h"
+#import "MacComputerCommandProtocol.h"
+#import "DynamicCommandManager.h"
+#import "WrapperCommand.h"
+#import "WrapperCommandManager.h"
+#import "GenericsCommand.h"
+#import "GenericsCommandManager.h"
+#import "BlockCommandManager.h"
+#import "ComputerProtocol.h"
+#import "ComputerFactoryProtocol.h"
+#import "AppleComputer.h"
+#import "HWComputer.h"
+#import "HWFactory.h"
+#import "AppleFactory.h"
+
+#endif /* PrefixHeader_pch */

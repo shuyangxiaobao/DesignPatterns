@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82FDB02B2576265A0004D125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB02A2576265A0004D125 /* AppDelegate.swift */; };
+		82FDB02D2576265A0004D125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB02C2576265A0004D125 /* SceneDelegate.swift */; };
+		82FDB02F2576265A0004D125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB02E2576265A0004D125 /* ViewController.swift */; };
+		82FDB0322576265A0004D125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FDB0302576265A0004D125 /* Main.storyboard */; };
+		82FDB0342576265D0004D125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FDB0332576265D0004D125 /* Assets.xcassets */; };
+		82FDB0372576265D0004D125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FDB0352576265D0004D125 /* LaunchScreen.storyboard */; };
+		82FDB0422576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB0412576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.swift */; };
+		82FDB04D2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB04C2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.swift */; };
+		82FDB05F257631BB0004D125 /* VisitorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB05E257631BB0004D125 /* VisitorProtocol.swift */; };
+		82FDB064257631E70004D125 /* ElementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB063257631E70004D125 /* ElementProtocol.swift */; };
+		82FDB069257633850004D125 /* BaseElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB068257633850004D125 /* BaseElement.swift */; };
+		82FDB06E257634EB0004D125 /* EngineerElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB06D257634EB0004D125 /* EngineerElement.swift */; };
+		82FDB0732576357E0004D125 /* ManagerElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB0722576357E0004D125 /* ManagerElement.swift */; };
+		82FDB0782576387D0004D125 /* CTOVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB0772576387D0004D125 /* CTOVisitor.swift */; };
+		82FDB07D25763A8B0004D125 /* CEOVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB07C25763A8B0004D125 /* CEOVisitor.swift */; };
+		82FDB08225763B460004D125 /* BusinessReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDB08125763B460004D125 /* BusinessReport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82FDB03E2576265D0004D125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FDB01F2576265A0004D125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FDB0262576265A0004D125;
+			remoteInfo = geqiangbao_20201201_visotor_swift;
+		};
+		82FDB0492576265D0004D125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FDB01F2576265A0004D125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FDB0262576265A0004D125;
+			remoteInfo = geqiangbao_20201201_visotor_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82FDB0272576265A0004D125 /* geqiangbao_20201201_visotor_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geqiangbao_20201201_visotor_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FDB02A2576265A0004D125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82FDB02C2576265A0004D125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82FDB02E2576265A0004D125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82FDB0312576265A0004D125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82FDB0332576265D0004D125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82FDB0362576265D0004D125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82FDB0382576265D0004D125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FDB03D2576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geqiangbao_20201201_visotor_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FDB0412576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geqiangbao_20201201_visotor_swiftTests.swift; sourceTree = "<group>"; };
+		82FDB0432576265D0004D125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FDB0482576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geqiangbao_20201201_visotor_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FDB04C2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geqiangbao_20201201_visotor_swiftUITests.swift; sourceTree = "<group>"; };
+		82FDB04E2576265D0004D125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FDB05E257631BB0004D125 /* VisitorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorProtocol.swift; sourceTree = "<group>"; };
+		82FDB063257631E70004D125 /* ElementProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementProtocol.swift; sourceTree = "<group>"; };
+		82FDB068257633850004D125 /* BaseElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseElement.swift; sourceTree = "<group>"; };
+		82FDB06D257634EB0004D125 /* EngineerElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerElement.swift; sourceTree = "<group>"; };
+		82FDB0722576357E0004D125 /* ManagerElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerElement.swift; sourceTree = "<group>"; };
+		82FDB0772576387D0004D125 /* CTOVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTOVisitor.swift; sourceTree = "<group>"; };
+		82FDB07C25763A8B0004D125 /* CEOVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEOVisitor.swift; sourceTree = "<group>"; };
+		82FDB08125763B460004D125 /* BusinessReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessReport.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FDB0242576265A0004D125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FDB03A2576265D0004D125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FDB0452576265D0004D125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82FDB01E2576265A0004D125 = {
+			isa = PBXGroup;
+			children = (
+				82FDB0292576265A0004D125 /* geqiangbao_20201201_visotor_swift */,
+				82FDB0402576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests */,
+				82FDB04B2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests */,
+				82FDB0282576265A0004D125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82FDB0282576265A0004D125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB0272576265A0004D125 /* geqiangbao_20201201_visotor_swift.app */,
+				82FDB03D2576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.xctest */,
+				82FDB0482576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FDB0292576265A0004D125 /* geqiangbao_20201201_visotor_swift */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB05D257631AD0004D125 /*  案例：企业查看员工数据 */,
+				82FDB02A2576265A0004D125 /* AppDelegate.swift */,
+				82FDB02C2576265A0004D125 /* SceneDelegate.swift */,
+				82FDB02E2576265A0004D125 /* ViewController.swift */,
+				82FDB0302576265A0004D125 /* Main.storyboard */,
+				82FDB0332576265D0004D125 /* Assets.xcassets */,
+				82FDB0352576265D0004D125 /* LaunchScreen.storyboard */,
+				82FDB0382576265D0004D125 /* Info.plist */,
+			);
+			path = geqiangbao_20201201_visotor_swift;
+			sourceTree = "<group>";
+		};
+		82FDB0402576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB0412576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.swift */,
+				82FDB0432576265D0004D125 /* Info.plist */,
+			);
+			path = geqiangbao_20201201_visotor_swiftTests;
+			sourceTree = "<group>";
+		};
+		82FDB04B2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB04C2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.swift */,
+				82FDB04E2576265D0004D125 /* Info.plist */,
+			);
+			path = geqiangbao_20201201_visotor_swiftUITests;
+			sourceTree = "<group>";
+		};
+		82FDB05D257631AD0004D125 /*  案例：企业查看员工数据 */ = {
+			isa = PBXGroup;
+			children = (
+				82FDB05E257631BB0004D125 /* VisitorProtocol.swift */,
+				82FDB063257631E70004D125 /* ElementProtocol.swift */,
+				82FDB068257633850004D125 /* BaseElement.swift */,
+				82FDB06D257634EB0004D125 /* EngineerElement.swift */,
+				82FDB0722576357E0004D125 /* ManagerElement.swift */,
+				82FDB0772576387D0004D125 /* CTOVisitor.swift */,
+				82FDB07C25763A8B0004D125 /* CEOVisitor.swift */,
+				82FDB08125763B460004D125 /* BusinessReport.swift */,
+			);
+			path = " 案例：企业查看员工数据";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FDB0262576265A0004D125 /* geqiangbao_20201201_visotor_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FDB0512576265D0004D125 /* Build configuration list for PBXNativeTarget "geqiangbao_20201201_visotor_swift" */;
+			buildPhases = (
+				82FDB0232576265A0004D125 /* Sources */,
+				82FDB0242576265A0004D125 /* Frameworks */,
+				82FDB0252576265A0004D125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geqiangbao_20201201_visotor_swift;
+			productName = geqiangbao_20201201_visotor_swift;
+			productReference = 82FDB0272576265A0004D125 /* geqiangbao_20201201_visotor_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82FDB03C2576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FDB0542576265D0004D125 /* Build configuration list for PBXNativeTarget "geqiangbao_20201201_visotor_swiftTests" */;
+			buildPhases = (
+				82FDB0392576265D0004D125 /* Sources */,
+				82FDB03A2576265D0004D125 /* Frameworks */,
+				82FDB03B2576265D0004D125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FDB03F2576265D0004D125 /* PBXTargetDependency */,
+			);
+			name = geqiangbao_20201201_visotor_swiftTests;
+			productName = geqiangbao_20201201_visotor_swiftTests;
+			productReference = 82FDB03D2576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82FDB0472576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FDB0572576265D0004D125 /* Build configuration list for PBXNativeTarget "geqiangbao_20201201_visotor_swiftUITests" */;
+			buildPhases = (
+				82FDB0442576265D0004D125 /* Sources */,
+				82FDB0452576265D0004D125 /* Frameworks */,
+				82FDB0462576265D0004D125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FDB04A2576265D0004D125 /* PBXTargetDependency */,
+			);
+			name = geqiangbao_20201201_visotor_swiftUITests;
+			productName = geqiangbao_20201201_visotor_swiftUITests;
+			productReference = 82FDB0482576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FDB01F2576265A0004D125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					82FDB0262576265A0004D125 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					82FDB03C2576265D0004D125 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 82FDB0262576265A0004D125;
+					};
+					82FDB0472576265D0004D125 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 82FDB0262576265A0004D125;
+					};
+				};
+			};
+			buildConfigurationList = 82FDB0222576265A0004D125 /* Build configuration list for PBXProject "geqiangbao_20201201_visotor_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82FDB01E2576265A0004D125;
+			productRefGroup = 82FDB0282576265A0004D125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FDB0262576265A0004D125 /* geqiangbao_20201201_visotor_swift */,
+				82FDB03C2576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests */,
+				82FDB0472576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FDB0252576265A0004D125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FDB0372576265D0004D125 /* LaunchScreen.storyboard in Resources */,
+				82FDB0342576265D0004D125 /* Assets.xcassets in Resources */,
+				82FDB0322576265A0004D125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FDB03B2576265D0004D125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FDB0462576265D0004D125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FDB0232576265A0004D125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FDB02F2576265A0004D125 /* ViewController.swift in Sources */,
+				82FDB06E257634EB0004D125 /* EngineerElement.swift in Sources */,
+				82FDB07D25763A8B0004D125 /* CEOVisitor.swift in Sources */,
+				82FDB069257633850004D125 /* BaseElement.swift in Sources */,
+				82FDB02B2576265A0004D125 /* AppDelegate.swift in Sources */,
+				82FDB08225763B460004D125 /* BusinessReport.swift in Sources */,
+				82FDB0732576357E0004D125 /* ManagerElement.swift in Sources */,
+				82FDB05F257631BB0004D125 /* VisitorProtocol.swift in Sources */,
+				82FDB02D2576265A0004D125 /* SceneDelegate.swift in Sources */,
+				82FDB0782576387D0004D125 /* CTOVisitor.swift in Sources */,
+				82FDB064257631E70004D125 /* ElementProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FDB0392576265D0004D125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FDB0422576265D0004D125 /* geqiangbao_20201201_visotor_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FDB0442576265D0004D125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FDB04D2576265D0004D125 /* geqiangbao_20201201_visotor_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82FDB03F2576265D0004D125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FDB0262576265A0004D125 /* geqiangbao_20201201_visotor_swift */;
+			targetProxy = 82FDB03E2576265D0004D125 /* PBXContainerItemProxy */;
+		};
+		82FDB04A2576265D0004D125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FDB0262576265A0004D125 /* geqiangbao_20201201_visotor_swift */;
+			targetProxy = 82FDB0492576265D0004D125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82FDB0302576265A0004D125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FDB0312576265A0004D125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82FDB0352576265D0004D125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FDB0362576265D0004D125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82FDB04F2576265D0004D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82FDB0502576265D0004D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FDB0522576265D0004D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201201_visotor_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201201-visotor-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82FDB0532576265D0004D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201201_visotor_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201201-visotor-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82FDB0552576265D0004D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201201_visotor_swiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201201-visotor-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geqiangbao_20201201_visotor_swift.app/geqiangbao_20201201_visotor_swift";
+			};
+			name = Debug;
+		};
+		82FDB0562576265D0004D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201201_visotor_swiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201201-visotor-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geqiangbao_20201201_visotor_swift.app/geqiangbao_20201201_visotor_swift";
+			};
+			name = Release;
+		};
+		82FDB0582576265D0004D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201201_visotor_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201201-visotor-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geqiangbao_20201201_visotor_swift;
+			};
+			name = Debug;
+		};
+		82FDB0592576265D0004D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				INFOPLIST_FILE = geqiangbao_20201201_visotor_swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "qdinfini.com.cn.NotificationService.geqiangbao-20201201-visotor-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = geqiangbao_20201201_visotor_swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FDB0222576265A0004D125 /* Build configuration list for PBXProject "geqiangbao_20201201_visotor_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FDB04F2576265D0004D125 /* Debug */,
+				82FDB0502576265D0004D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FDB0512576265D0004D125 /* Build configuration list for PBXNativeTarget "geqiangbao_20201201_visotor_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FDB0522576265D0004D125 /* Debug */,
+				82FDB0532576265D0004D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FDB0542576265D0004D125 /* Build configuration list for PBXNativeTarget "geqiangbao_20201201_visotor_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FDB0552576265D0004D125 /* Debug */,
+				82FDB0562576265D0004D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FDB0572576265D0004D125 /* Build configuration list for PBXNativeTarget "geqiangbao_20201201_visotor_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FDB0582576265D0004D125 /* Debug */,
+				82FDB0592576265D0004D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FDB01F2576265A0004D125 /* Project object */;
+}

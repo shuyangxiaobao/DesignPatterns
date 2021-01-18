@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82708650256399E400FB7540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270864F256399E400FB7540 /* main.m */; };
+		8270865B25639A3E00FB7540 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270865A25639A3E00FB7540 /* Invoker.m */; };
+		8270866025639A6700FB7540 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270865F25639A6700FB7540 /* Receiver.m */; };
+		8270866625639B3300FB7540 /* ConcrateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270866525639B3200FB7540 /* ConcrateCommand.m */; };
+		8270866B25639D6A00FB7540 /* MacComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270866A25639D6A00FB7540 /* MacComputer.m */; };
+		8270867225639EAB00FB7540 /* MacStartUpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270867125639EAB00FB7540 /* MacStartUpCommand.m */; };
+		8270867725639F8F00FB7540 /* MacShutDownCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270867625639F8F00FB7540 /* MacShutDownCommand.m */; };
+		8270867B2563A06E00FB7540 /* MacInvolker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270867A2563A06E00FB7540 /* MacInvolker.m */; };
+		827086812563A6DA00FB7540 /* TetrisMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086802563A6DA00FB7540 /* TetrisMachine.m */; };
+		827086872563A7CE00FB7540 /* TMLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086862563A7CE00FB7540 /* TMLeftCommand.m */; };
+		8270868C2563ACAB00FB7540 /* TMRightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270868B2563ACAB00FB7540 /* TMRightCommand.m */; };
+		827086902563ACE100FB7540 /* TMTransformCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270868F2563ACE100FB7540 /* TMTransformCommand.m */; };
+		827086942563AD4800FB7540 /* TMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086932563AD4800FB7540 /* TMManager.m */; };
+		8270869D2563B51500FB7540 /* DynamicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8270869C2563B51500FB7540 /* DynamicCommand.m */; };
+		827086A22563B62B00FB7540 /* DynamicCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086A12563B62B00FB7540 /* DynamicCommandManager.m */; };
+		827086A62563BC8100FB7540 /* WrapperCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086A52563BC8100FB7540 /* WrapperCommand.m */; };
+		827086B02563BDE900FB7540 /* WrapperCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086AF2563BDE900FB7540 /* WrapperCommandManager.m */; };
+		827086B42563C03800FB7540 /* GenericsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086B32563C03800FB7540 /* GenericsCommand.m */; };
+		827086B82563C35300FB7540 /* GenericsCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086B72563C35300FB7540 /* GenericsCommandManager.m */; };
+		827086BC2563C69900FB7540 /* QueueCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086BB2563C69900FB7540 /* QueueCommandManager.m */; };
+		827086C02563C77F00FB7540 /* BlockCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827086BF2563C77F00FB7540 /* BlockCommandManager.m */; };
+		82CBB82125665F1400CE6656 /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CBB82025665F1400CE6656 /* AppleFactory.m */; };
+		82CCB9FF25665FAF006D727F /* AppleComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCB9FE25665FAF006D727F /* AppleComputer.m */; };
+		82CCBA0425666039006D727F /* HWFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCBA0325666039006D727F /* HWFactory.m */; };
+		82CCBA0925666065006D727F /* HWComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CCBA0825666065006D727F /* HWComputer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8270864A256399E400FB7540 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8270864C256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geqiangbao_20201117_CommandPattern_01; sourceTree = BUILT_PRODUCTS_DIR; };
+		8270864F256399E400FB7540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8270865925639A3E00FB7540 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		8270865A25639A3E00FB7540 /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		8270865E25639A6700FB7540 /* Receiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		8270865F25639A6700FB7540 /* Receiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		8270866225639A9800FB7540 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		8270866425639B3200FB7540 /* ConcrateCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcrateCommand.h; sourceTree = "<group>"; };
+		8270866525639B3200FB7540 /* ConcrateCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcrateCommand.m; sourceTree = "<group>"; };
+		8270866925639D6A00FB7540 /* MacComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacComputer.h; sourceTree = "<group>"; };
+		8270866A25639D6A00FB7540 /* MacComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacComputer.m; sourceTree = "<group>"; };
+		8270866F25639E4B00FB7540 /* MacComputerCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacComputerCommandProtocol.h; sourceTree = "<group>"; };
+		8270867025639EAB00FB7540 /* MacStartUpCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacStartUpCommand.h; sourceTree = "<group>"; };
+		8270867125639EAB00FB7540 /* MacStartUpCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacStartUpCommand.m; sourceTree = "<group>"; };
+		8270867525639F8F00FB7540 /* MacShutDownCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacShutDownCommand.h; sourceTree = "<group>"; };
+		8270867625639F8F00FB7540 /* MacShutDownCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacShutDownCommand.m; sourceTree = "<group>"; };
+		827086792563A06E00FB7540 /* MacInvolker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacInvolker.h; sourceTree = "<group>"; };
+		8270867A2563A06E00FB7540 /* MacInvolker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacInvolker.m; sourceTree = "<group>"; };
+		8270867F2563A6DA00FB7540 /* TetrisMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisMachine.h; sourceTree = "<group>"; };
+		827086802563A6DA00FB7540 /* TetrisMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisMachine.m; sourceTree = "<group>"; };
+		827086842563A77500FB7540 /* TetrisMachineCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisMachineCommandProtocol.h; sourceTree = "<group>"; };
+		827086852563A7CE00FB7540 /* TMLeftCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLeftCommand.h; sourceTree = "<group>"; };
+		827086862563A7CE00FB7540 /* TMLeftCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLeftCommand.m; sourceTree = "<group>"; };
+		8270868A2563ACAB00FB7540 /* TMRightCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRightCommand.h; sourceTree = "<group>"; };
+		8270868B2563ACAB00FB7540 /* TMRightCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRightCommand.m; sourceTree = "<group>"; };
+		8270868E2563ACE100FB7540 /* TMTransformCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTransformCommand.h; sourceTree = "<group>"; };
+		8270868F2563ACE100FB7540 /* TMTransformCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTransformCommand.m; sourceTree = "<group>"; };
+		827086922563AD4800FB7540 /* TMManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMManager.h; sourceTree = "<group>"; };
+		827086932563AD4800FB7540 /* TMManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMManager.m; sourceTree = "<group>"; };
+		8270869B2563B51500FB7540 /* DynamicCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCommand.h; sourceTree = "<group>"; };
+		8270869C2563B51500FB7540 /* DynamicCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCommand.m; sourceTree = "<group>"; };
+		827086A02563B62B00FB7540 /* DynamicCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCommandManager.h; sourceTree = "<group>"; };
+		827086A12563B62B00FB7540 /* DynamicCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCommandManager.m; sourceTree = "<group>"; };
+		827086A42563BC8100FB7540 /* WrapperCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrapperCommand.h; sourceTree = "<group>"; };
+		827086A52563BC8100FB7540 /* WrapperCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrapperCommand.m; sourceTree = "<group>"; };
+		827086A82563BC9C00FB7540 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		827086AE2563BDE900FB7540 /* WrapperCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrapperCommandManager.h; sourceTree = "<group>"; };
+		827086AF2563BDE900FB7540 /* WrapperCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrapperCommandManager.m; sourceTree = "<group>"; };
+		827086B22563C03800FB7540 /* GenericsCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericsCommand.h; sourceTree = "<group>"; };
+		827086B32563C03800FB7540 /* GenericsCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericsCommand.m; sourceTree = "<group>"; };
+		827086B62563C35300FB7540 /* GenericsCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericsCommandManager.h; sourceTree = "<group>"; };
+		827086B72563C35300FB7540 /* GenericsCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericsCommandManager.m; sourceTree = "<group>"; };
+		827086BA2563C69900FB7540 /* QueueCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueCommandManager.h; sourceTree = "<group>"; };
+		827086BB2563C69900FB7540 /* QueueCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueCommandManager.m; sourceTree = "<group>"; };
+		827086BE2563C77F00FB7540 /* BlockCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockCommandManager.h; sourceTree = "<group>"; };
+		827086BF2563C77F00FB7540 /* BlockCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockCommandManager.m; sourceTree = "<group>"; };
+		82CBB81B25665E4800CE6656 /* ComputerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerProtocol.h; sourceTree = "<group>"; };
+		82CBB81C25665E9400CE6656 /* ComputerFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerFactoryProtocol.h; sourceTree = "<group>"; };
+		82CBB81F25665F1400CE6656 /* AppleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		82CBB82025665F1400CE6656 /* AppleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		82CCB9FD25665FAF006D727F /* AppleComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleComputer.h; sourceTree = "<group>"; };
+		82CCB9FE25665FAF006D727F /* AppleComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleComputer.m; sourceTree = "<group>"; };
+		82CCBA0225666039006D727F /* HWFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWFactory.h; sourceTree = "<group>"; };
+		82CCBA0325666039006D727F /* HWFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWFactory.m; sourceTree = "<group>"; };
+		82CCBA0725666065006D727F /* HWComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWComputer.h; sourceTree = "<group>"; };
+		82CCBA0825666065006D727F /* HWComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWComputer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82708649256399E400FB7540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82708643256399E400FB7540 = {
+			isa = PBXGroup;
+			children = (
+				827086A82563BC9C00FB7540 /* PrefixHeader.pch */,
+				8270864E256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */,
+				8270864D256399E400FB7540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8270864D256399E400FB7540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8270864C256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8270864E256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */ = {
+			isa = PBXGroup;
+			children = (
+				82CBB7F12566094500CE6656 /* Factory */,
+				82708657256399FA00FB7540 /* day1_Command */,
+				8270864F256399E400FB7540 /* main.m */,
+			);
+			path = geqiangbao_20201117_CommandPattern_01;
+			sourceTree = "<group>";
+		};
+		82708657256399FA00FB7540 /* day1_Command */ = {
+			isa = PBXGroup;
+			children = (
+				8270867E2563A6BD00FB7540 /* TetrisMachine */,
+				8270866825639D5100FB7540 /* computer */,
+				827086D62563D2EF00FB7540 /* Command */,
+			);
+			path = day1_Command;
+			sourceTree = "<group>";
+		};
+		8270866825639D5100FB7540 /* computer */ = {
+			isa = PBXGroup;
+			children = (
+				8270866925639D6A00FB7540 /* MacComputer.h */,
+				8270866A25639D6A00FB7540 /* MacComputer.m */,
+				8270866F25639E4B00FB7540 /* MacComputerCommandProtocol.h */,
+				8270867025639EAB00FB7540 /* MacStartUpCommand.h */,
+				8270867125639EAB00FB7540 /* MacStartUpCommand.m */,
+				8270867525639F8F00FB7540 /* MacShutDownCommand.h */,
+				8270867625639F8F00FB7540 /* MacShutDownCommand.m */,
+				827086792563A06E00FB7540 /* MacInvolker.h */,
+				8270867A2563A06E00FB7540 /* MacInvolker.m */,
+			);
+			path = computer;
+			sourceTree = "<group>";
+		};
+		8270867E2563A6BD00FB7540 /* TetrisMachine */ = {
+			isa = PBXGroup;
+			children = (
+				8270869A2563B4E300FB7540 /* Simple5 */,
+				827086992563B4D700FB7540 /* Simple4 */,
+				827086982563B4CE00FB7540 /* Simple3 */,
+				827086972563B4C700FB7540 /* Simple2 */,
+				827086962563B4B900FB7540 /* Simple1 */,
+				8270867F2563A6DA00FB7540 /* TetrisMachine.h */,
+				827086802563A6DA00FB7540 /* TetrisMachine.m */,
+				827086842563A77500FB7540 /* TetrisMachineCommandProtocol.h */,
+				827086852563A7CE00FB7540 /* TMLeftCommand.h */,
+				827086862563A7CE00FB7540 /* TMLeftCommand.m */,
+				8270868A2563ACAB00FB7540 /* TMRightCommand.h */,
+				8270868B2563ACAB00FB7540 /* TMRightCommand.m */,
+				8270868E2563ACE100FB7540 /* TMTransformCommand.h */,
+				8270868F2563ACE100FB7540 /* TMTransformCommand.m */,
+				827086922563AD4800FB7540 /* TMManager.h */,
+				827086932563AD4800FB7540 /* TMManager.m */,
+			);
+			path = TetrisMachine;
+			sourceTree = "<group>";
+		};
+		827086962563B4B900FB7540 /* Simple1 */ = {
+			isa = PBXGroup;
+			children = (
+				8270869B2563B51500FB7540 /* DynamicCommand.h */,
+				8270869C2563B51500FB7540 /* DynamicCommand.m */,
+				827086A02563B62B00FB7540 /* DynamicCommandManager.h */,
+				827086A12563B62B00FB7540 /* DynamicCommandManager.m */,
+			);
+			path = Simple1;
+			sourceTree = "<group>";
+		};
+		827086972563B4C700FB7540 /* Simple2 */ = {
+			isa = PBXGroup;
+			children = (
+				827086A42563BC8100FB7540 /* WrapperCommand.h */,
+				827086A52563BC8100FB7540 /* WrapperCommand.m */,
+				827086AE2563BDE900FB7540 /* WrapperCommandManager.h */,
+				827086AF2563BDE900FB7540 /* WrapperCommandManager.m */,
+			);
+			path = Simple2;
+			sourceTree = "<group>";
+		};
+		827086982563B4CE00FB7540 /* Simple3 */ = {
+			isa = PBXGroup;
+			children = (
+				827086B22563C03800FB7540 /* GenericsCommand.h */,
+				827086B32563C03800FB7540 /* GenericsCommand.m */,
+				827086B62563C35300FB7540 /* GenericsCommandManager.h */,
+				827086B72563C35300FB7540 /* GenericsCommandManager.m */,
+			);
+			path = Simple3;
+			sourceTree = "<group>";
+		};
+		827086992563B4D700FB7540 /* Simple4 */ = {
+			isa = PBXGroup;
+			children = (
+				827086BA2563C69900FB7540 /* QueueCommandManager.h */,
+				827086BB2563C69900FB7540 /* QueueCommandManager.m */,
+			);
+			path = Simple4;
+			sourceTree = "<group>";
+		};
+		8270869A2563B4E300FB7540 /* Simple5 */ = {
+			isa = PBXGroup;
+			children = (
+				827086BE2563C77F00FB7540 /* BlockCommandManager.h */,
+				827086BF2563C77F00FB7540 /* BlockCommandManager.m */,
+			);
+			path = Simple5;
+			sourceTree = "<group>";
+		};
+		827086D62563D2EF00FB7540 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				8270865925639A3E00FB7540 /* Invoker.h */,
+				8270865A25639A3E00FB7540 /* Invoker.m */,
+				8270865E25639A6700FB7540 /* Receiver.h */,
+				8270865F25639A6700FB7540 /* Receiver.m */,
+				8270866225639A9800FB7540 /* CommandProtocol.h */,
+				8270866425639B3200FB7540 /* ConcrateCommand.h */,
+				8270866525639B3200FB7540 /* ConcrateCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		82CBB7F12566094500CE6656 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				82CCBA0125666028006D727F /* HW */,
+				82CBB81E25665EF200CE6656 /* Apple */,
+				82CBB81A25665E2A00CE6656 /* protocol */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		82CBB81A25665E2A00CE6656 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				82CBB81B25665E4800CE6656 /* ComputerProtocol.h */,
+				82CBB81C25665E9400CE6656 /* ComputerFactoryProtocol.h */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		82CBB81E25665EF200CE6656 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				82CBB81F25665F1400CE6656 /* AppleFactory.h */,
+				82CBB82025665F1400CE6656 /* AppleFactory.m */,
+				82CCB9FD25665FAF006D727F /* AppleComputer.h */,
+				82CCB9FE25665FAF006D727F /* AppleComputer.m */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		82CCBA0125666028006D727F /* HW */ = {
+			isa = PBXGroup;
+			children = (
+				82CCBA0225666039006D727F /* HWFactory.h */,
+				82CCBA0325666039006D727F /* HWFactory.m */,
+				82CCBA0725666065006D727F /* HWComputer.h */,
+				82CCBA0825666065006D727F /* HWComputer.m */,
+			);
+			path = HW;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8270864B256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82708653256399E400FB7540 /* Build configuration list for PBXNativeTarget "geqiangbao_20201117_CommandPattern_01" */;
+			buildPhases = (
+				82708648256399E400FB7540 /* Sources */,
+				82708649256399E400FB7540 /* Frameworks */,
+				8270864A256399E400FB7540 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geqiangbao_20201117_CommandPattern_01;
+			productName = geqiangbao_20201117_CommandPattern_01;
+			productReference = 8270864C256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82708644256399E400FB7540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8270864B256399E400FB7540 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 82708647256399E400FB7540 /* Build configuration list for PBXProject "geqiangbao_20201117_CommandPattern_01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82708643256399E400FB7540;
+			productRefGroup = 8270864D256399E400FB7540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8270864B256399E400FB7540 /* geqiangbao_20201117_CommandPattern_01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82708648256399E400FB7540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8270866B25639D6A00FB7540 /* MacComputer.m in Sources */,
+				827086872563A7CE00FB7540 /* TMLeftCommand.m in Sources */,
+				827086812563A6DA00FB7540 /* TetrisMachine.m in Sources */,
+				827086BC2563C69900FB7540 /* QueueCommandManager.m in Sources */,
+				827086902563ACE100FB7540 /* TMTransformCommand.m in Sources */,
+				8270867725639F8F00FB7540 /* MacShutDownCommand.m in Sources */,
+				8270867225639EAB00FB7540 /* MacStartUpCommand.m in Sources */,
+				8270867B2563A06E00FB7540 /* MacInvolker.m in Sources */,
+				8270869D2563B51500FB7540 /* DynamicCommand.m in Sources */,
+				827086942563AD4800FB7540 /* TMManager.m in Sources */,
+				827086B82563C35300FB7540 /* GenericsCommandManager.m in Sources */,
+				82CBB82125665F1400CE6656 /* AppleFactory.m in Sources */,
+				8270865B25639A3E00FB7540 /* Invoker.m in Sources */,
+				82708650256399E400FB7540 /* main.m in Sources */,
+				827086B42563C03800FB7540 /* GenericsCommand.m in Sources */,
+				827086A62563BC8100FB7540 /* WrapperCommand.m in Sources */,
+				827086B02563BDE900FB7540 /* WrapperCommandManager.m in Sources */,
+				82CCBA0925666065006D727F /* HWComputer.m in Sources */,
+				8270866625639B3300FB7540 /* ConcrateCommand.m in Sources */,
+				8270866025639A6700FB7540 /* Receiver.m in Sources */,
+				8270868C2563ACAB00FB7540 /* TMRightCommand.m in Sources */,
+				827086A22563B62B00FB7540 /* DynamicCommandManager.m in Sources */,
+				82CCBA0425666039006D727F /* HWFactory.m in Sources */,
+				82CCB9FF25665FAF006D727F /* AppleComputer.m in Sources */,
+				827086C02563C77F00FB7540 /* BlockCommandManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82708651256399E400FB7540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82708652256399E400FB7540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82708654256399E400FB7540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82708655256399E400FB7540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UZC2PTF7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82708647256399E400FB7540 /* Build configuration list for PBXProject "geqiangbao_20201117_CommandPattern_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82708651256399E400FB7540 /* Debug */,
+				82708652256399E400FB7540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82708653256399E400FB7540 /* Build configuration list for PBXNativeTarget "geqiangbao_20201117_CommandPattern_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82708654256399E400FB7540 /* Debug */,
+				82708655256399E400FB7540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82708644256399E400FB7540 /* Project object */;
+}

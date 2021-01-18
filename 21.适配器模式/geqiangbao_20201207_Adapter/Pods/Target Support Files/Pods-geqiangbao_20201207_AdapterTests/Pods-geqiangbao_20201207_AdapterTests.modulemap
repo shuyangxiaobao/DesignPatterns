@@ -1,0 +1,6 @@
+framework module Pods_geqiangbao_20201207_AdapterTests {
+  umbrella header "Pods-geqiangbao_20201207_AdapterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

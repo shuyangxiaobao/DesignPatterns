@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_geqiangbao_20201207_Adapter_geqiangbao_20201207_AdapterUITests : NSObject
+@end
+@implementation PodsDummy_Pods_geqiangbao_20201207_Adapter_geqiangbao_20201207_AdapterUITests
+@end
