@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  geqiangbao_20201119_map_factory
+//
+//  Created by xiaobao on 2020/11/19.
+//
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MapFactoryProtocol.h"
+#import "MapViewProtocol.h"
+
+
+
+#endif /* PrefixHeader_pch */

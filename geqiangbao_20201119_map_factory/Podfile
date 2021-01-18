@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'geqiangbao_20201119_map_factory' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'BaiduMapKit', '6.0.0' # 默认集成全量包
+  pod 'BMKLocationKit'
+  pod 'BaiduMapAPI_Location'
+
+  
+  
+  pod 'AMap3DMap'
+  pod 'AMapSearch'
+  pod 'AMapLocation'
+  pod 'BMKLocationKit'
+
+  
+#   pod 'BaiduMapKit', '6.0.0' # 默认集成全量包
+#   pod 'BaiduNaviKit', '6.0.0' # 默认集成Base Map Navi 组件
+
+
+
+
+  # Pods for geqiangbao_20201119_map_factory
+
+  target 'geqiangbao_20201119_map_factoryTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'geqiangbao_20201119_map_factoryUITests' do
+    # Pods for testing
+  end
+
+end

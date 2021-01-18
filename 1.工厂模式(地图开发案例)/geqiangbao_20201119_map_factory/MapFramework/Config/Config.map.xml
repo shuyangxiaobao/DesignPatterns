@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+    <platform id="1" isOpen="YES566" factoryName="BaiduMapFactory" appkey="qwfFdqLeEHFkAPBxoRbjPuu6HRA1xP0S" />
+    <platform id="2" isOpen="YES" factoryName="GaodeMapFactory" appkey="be402877841949be0b2fb3b45d09221a" />
+</map>
